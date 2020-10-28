@@ -8,7 +8,7 @@ namespace Assets.IBUI.UnityUI.DOTweenAnimations
 {
     public class SlideOutOnHide : MonoBehaviour, IAnimateHide
     {
-        public float AnimationTime = 1.0f;
+        public float AnimationTime = .2f;
         public string[] NegativeStates = new string[0];
 
         private Rect _originalRect;
