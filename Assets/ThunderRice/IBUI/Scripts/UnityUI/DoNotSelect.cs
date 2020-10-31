@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.IBUI.UnityUI
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
 {
     public class DoNotSelect : MonoBehaviour, ISelectHandler
     {

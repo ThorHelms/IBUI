@@ -1,17 +1,19 @@
 ﻿using System;
-using Assets.IBUI.Interfaces;
+using Assets.ThunderRice.IBUI.Scripts.Interfaces;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.IBUI.UnityUI
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
 {
     public class ChangeRouteButton : MonoBehaviour
     {
         public string DesiredState = String.Empty;
 
         public GameObject Router = null;
+
+        public bool AutoRenameInEditor = true;
 
         public enum RouteAction
         {

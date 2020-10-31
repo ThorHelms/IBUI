@@ -1,4 +1,4 @@
-﻿namespace Assets.IBUI.Interfaces
+﻿namespace Assets.ThunderRice.IBUI.Scripts.Interfaces
 {
     public interface IRoutePath
     {

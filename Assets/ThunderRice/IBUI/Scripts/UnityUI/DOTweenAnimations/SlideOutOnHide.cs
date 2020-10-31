@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Assets.IBUI.Interfaces;
+using Assets.ThunderRice.IBUI.Scripts.Interfaces;
 using DG.Tweening;
 using UnityEngine;
 
-namespace Assets.IBUI.UnityUI.DOTweenAnimations
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI.DOTweenAnimations
 {
     public class SlideOutOnHide : MonoBehaviour, IAnimateHide
     {

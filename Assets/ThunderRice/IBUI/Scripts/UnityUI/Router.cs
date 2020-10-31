@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.IBUI.Interfaces;
+using Assets.ThunderRice.IBUI.Scripts.Interfaces;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.IBUI.UnityUI
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
 {
     public class Router : MonoBehaviour, IRouter
     {
@@ -57,9 +57,9 @@ namespace Assets.IBUI.UnityUI
         public void SetState(string newState)
         {
             var oldState = GetState();
-            ActivateState(newState, oldState);
             _stateHistory.Clear();
             _stateHistory.Add(newState);
+            ActivateState(newState, oldState);
         }
 
         public string GetState()
@@ -88,8 +88,8 @@ namespace Assets.IBUI.UnityUI
         public void PushState(string newState)
         {
             var oldState = GetState();
-            ActivateState(newState, oldState);
             _stateHistory.Add(newState);
+            ActivateState(newState, oldState);
         }
 
         public void ChangeState(string newState)
@@ -100,9 +100,9 @@ namespace Assets.IBUI.UnityUI
                 return;
             }
             var oldState = GetState();
-            ActivateState(newState, oldState);
             _stateHistory.RemoveAt(_stateHistory.Count-1);
             _stateHistory.Add(newState);
+            ActivateState(newState, oldState);
         }
 
         public void AddStateListener(Action<string, string> listener)

@@ -1,14 +1,16 @@
 ﻿using System;
-using Assets.IBUI.Interfaces;
-using Assets.IBUI.UnityUI.DOTweenAnimations;
+using Assets.ThunderRice.IBUI.Scripts.Interfaces;
+using Assets.ThunderRice.IBUI.Scripts.UnityUI.DOTweenAnimations;
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.IBUI.UnityUI
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
 {
     public class RoutePath : MonoBehaviour, IRoutePath
     {
         public string Path = String.Empty;
+
+        public bool AutoRenameInEditor = true;
 
         private IShowable _showable;
         private IFocusable _focusable;

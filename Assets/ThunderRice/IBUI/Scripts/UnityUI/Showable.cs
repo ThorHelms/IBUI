@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Assets.IBUI.Interfaces;
+using Assets.ThunderRice.IBUI.Scripts.Interfaces;
 using UnityEngine;
 
-namespace Assets.IBUI.UnityUI
+namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
 {
     public class Showable : MonoBehaviour, IShowable
     {
