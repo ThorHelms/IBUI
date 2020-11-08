@@ -68,11 +68,11 @@ namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
             }
         }
 
-        [MenuItem("GameObject/UBUI/Overlay", false, 10)]
+        [MenuItem("GameObject/IBUI/Overlay/Overlay", false, 110)]
         public static void CreateRouterCanvas(MenuCommand menuCommand)
         {
             // Create a custom game object
-            var go = new GameObject("UBUI Overlay");
+            var go = new GameObject("IBUI Overlay");
             var rectTransform = go.AddComponent<RectTransform>();
             rectTransform.anchorMin = new Vector2(0, 0);
             rectTransform.anchorMax = new Vector2(1, 1);

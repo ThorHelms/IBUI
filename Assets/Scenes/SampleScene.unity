@@ -6048,7 +6048,7 @@ GameObject:
   - component: {fileID: 1958395984}
   - component: {fileID: 1958395983}
   m_Layer: 0
-  m_Name: UBUI Router (canvas)
+  m_Name: IBUI Router (canvas)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

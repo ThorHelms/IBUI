@@ -51,11 +51,11 @@ namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
             _overlay.Show(_activatable);
         }
 
-        [MenuItem("GameObject/UBUI/Show Overlay button", false, 10)]
+        [MenuItem("GameObject/IBUI/Overlay/Show Overlay button", false, 120)]
         public static void CreateRouterCanvas(MenuCommand menuCommand)
         {
             // Create a custom game object
-            var go = new GameObject("UBUI Show Overlay button");
+            var go = new GameObject("IBUI Show Overlay button");
             var rectTransform = go.AddComponent<RectTransform>();
             rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 160);
             rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 30);

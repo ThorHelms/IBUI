@@ -120,11 +120,11 @@ namespace Assets.ThunderRice.IBUI.Scripts.UnityUI
             _routePaths = GetComponentsInChildren<IRoutePath>(true);
         }
 
-        [MenuItem("GameObject/UBUI/Router (canvas)", false, 10)]
+        [MenuItem("GameObject/IBUI/Router/Router (canvas)", false, 10)]
         public static void CreateRouterCanvas(MenuCommand menuCommand)
         {
             // Create a custom game object
-            var go = new GameObject("UBUI Router (canvas)");
+            var go = new GameObject("IBUI Router (canvas)");
             go.AddComponent<RectTransform>();
             var canvas = go.AddComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
