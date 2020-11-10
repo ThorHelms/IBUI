@@ -1,7 +1,7 @@
 {
-  name: "com.thunderrice.ibui",
-  version: "0.0.1",
-  displayName: "IBUI",
-  description: "Interface-base UI for Unity 3D",
-  unity: "2018.4"
+  "name": "com.thunderrice.ibui",
+  "version": "0.0.1",
+  "displayName": "IBUI",
+  "description": "Interface-base UI for Unity 3D",
+  "unity": "2018.4"
 }
